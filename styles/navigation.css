@@ -1,0 +1,35 @@
+/* navigation */
+.inner {
+    width: 80%;
+    height: 180px;
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+    font-family: Microsoft YaHei, Segoe UI, Tahoma, Arial, Verdana, sans-serif;
+}
+.inner li {
+    display: block;
+    float: left;
+    width: 135px;
+    height: 35px;
+    padding-right: 2px;
+    line-height: 32px;
+    list-style: none;
+}
+
+.inner li a {
+    color: #fff;
+    background-color: darkgrey;
+    text-decoration: none;
+    display: block;
+    position: relative;
+    text-align: center;
+    font-family: cursive;
+    font-size: 1rem;
+    border-radius: 20px;
+}
+
+.inner li a:hover, #container li a.cur {
+    background:#e9d008;
+}
+
