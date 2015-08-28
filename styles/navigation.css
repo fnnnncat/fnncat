@@ -4,14 +4,17 @@
     overflow: hidden;
     margin: auto;
     font-family: Microsoft YaHei, Segoe UI, Tahoma, Arial, Verdana, sans-serif;
+    padding: 4%;
+}
+.inner ul{
+    margin-top: 10px;
 }
 .inner li {
     display: block;
     float: left;
     width: 135px;
-    height: 35px;
-    padding-right: 2px;
-    line-height: 32px;
+    padding: 10px;
+    line-height: 40px;
     list-style: none;
 }
 
@@ -25,6 +28,7 @@
     font-family: cursive;
     font-size: 1rem;
     border-radius: 20px;
+    height: 40px;
 }
 
 .inner li a:hover, #container li a.cur {

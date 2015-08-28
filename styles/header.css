@@ -1,6 +1,12 @@
 .header{
-    padding-top: 100px;
-    height: 180px;
     margin: 0 auto;
-    z-index: 8;
+    font-size: 4rem;
+    text-align: left;
+    color: #828282;
+    font-family: cursive;
+}
+.header h2{
+    font-size: 100%;
+    padding-left: 50px;
+    margin: 10px 0px 0px 0px;
 }
