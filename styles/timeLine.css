@@ -25,24 +25,26 @@
 
 .event_year li.current {
     width: 61px;
-    background: #0066ff url('../images/jian.png') 60px 0 no-repeat;
+    background: darkgrey url('../images/jian.png') 60px 0 no-repeat;
     color: #FFF;
     text-align: left;
 }
 
 .event_list {
+    margin-top: -10px;
+    float: left;
+    list-style-type: none;
     display: block;
-    width:70%;
+    width:80%;
     float: right;
-    background: url('../images/dian3.png') 139px 0 repeat-y;
-
+    background: url('../images/dian3.png') 8px 8px repeat-y;
+    padding: 0;
 }
 
 .event_list h3 {
-    margin: 0 0 10px 132px;
     font-size: 24px;
     font-family: Georgia;
-    color: #0066ff;
+    color: darkgrey;
     padding-left: 25px;
     background: url('../images/jian.png') 0 -45px no-repeat;
     height: 38px;
@@ -55,11 +57,10 @@
 }
 
 .event_list li span {
-    width: 127px;
+    width: 80px;
     text-align: right;
     display: block;
     float: left;
-    margin-top: 10px;
 }
 
 .event_list li p {
@@ -67,7 +68,7 @@
     margin-left: 24px;
     display: inline-block;
     padding-left: 10px;
-    background: url('../images/jian.png') -21px 0 no-repeat;
+    /*background: url('../images/jian.png') -21px 0 no-repeat;*/
     line-height: 25px;
     _float: left;
 }
@@ -81,7 +82,9 @@
     margin: 0;
     border-radius: 50px;
 }
-
+.clearfix{
+    clear:both;
+}
 
 
 
